@@ -1,1 +1,24 @@
+What is AWS elastic beanstalk?
+It gives easy and quick deployment of applications in AWS Cloud.
 
+How it Works?
+•	Platform already built you only need to upload your code
+•	EBS automatically handles the deployment including load-balancer, auto-scaling, and application health monitoring.
+
+Points on EBS?
+•	Focus on writing code instead of managing, configuring, database, load-balancer, firewall and network
+•	EBS uses core AWS services like EC2, ECS, Auto-scaling, and ELB to easily support application that need to scale to serve millions of users.
+•	EBS has access to the server 
+•	EBS has full control on EC2 instances which are launched by EBS
+•	EBS will handle EC2 on our behalf i.e. (OS, network, storage) 
+•	It is a regional  service
+•	We need to provide configuration to EBS like VPC, AMI, Auto-scaling, ELB, Security Group, Platform etc.
+•	Provide pre-configured platforms like Python, Java, Ruby, Go, PHP, etc. we can deploy code to this platform.
+(Deployment means putting your code into the server)
+•	In EBS AWS will take care of the infrastructure (ELB, ASG etc.)
+•	In EBS one code for one application.
+
+Pricing in EBS?
+•	EBS is free of cost just need to pay for the underlying services that we use.
+•	Pay only for what you use
+•	No minimum fees or  no  upfront commitment.
