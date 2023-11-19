@@ -36,3 +36,6 @@ Important Points
 	Dedicated instance is charged 2$/hr in every region
 	These dedicated fees are not discounted by savings plan 
 	 Both compute and ec2 instance plan types apply to ec2 instance that are part of Amazon EMR, EKS, ECS Cluster, but Amazon EKS charges will not be covered by savings plan but the underlying ec2 instance will be covered.
+
+
+https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html
