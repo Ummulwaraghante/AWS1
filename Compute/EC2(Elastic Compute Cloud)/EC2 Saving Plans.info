@@ -1,1 +1,38 @@
+EC2 Savings Plan :
 
+1.	Compute
+
+•	Reduce the cost up to 66% as compared to on-demand for ec2 instance, lambda usage, fargate usage.
+•	Regardless of 
+	Instance family (t2,m5,c4) 
+	Size (C5.large, C5.X-Large)
+	AZ  (us-east1, us-east2)
+	Region (AP-South, US-east)
+	OS (Linux, Windows)
+	Tenancy (shared, dedicated)
+•	You can opt-in for saving plans for 1 or 3 years duration
+
+Note: 
+1.	More Flexibility in saving in terms of reservation which is not there with reserved instance
+2.	Automatically applied to ec2 instance usage
+
+How it works?
+•	In reserved instance you are particularly committed to one instance type but here commitment is changing you are committed for compute usage 
+•	E.g.: $10 per hour (bill for EC2 , lambda, fargate) combinedly you are using $10 for all these services if it gets above 10$ then we need to pay extra 2$ as on-demand price.
+•	Any billing that is above commitment will be charged on the basis of  on-demand prices.
+
+2. EC2 Instance  
+•	Lesser flexibility than compute savings plan 
+•	Reduce cost up to 72% compared to on-demand 
+•	Specific for instance family and region
+•	Regardless of size, OS and tenancy
+•	One to three years commitment period
+
+3. AWS Sage maker
+•	Savings up to 64% as compared to on-demand 
+•	regardless of instance family , size , region, and compute
+
+Important Points
+	Dedicated instance is charged 2$/hr in every region
+	These dedicated fees are not discounted by savings plan 
+	 Both compute and ec2 instance plan types apply to ec2 instance that are part of Amazon EMR, EKS, ECS Cluster, but Amazon EKS charges will not be covered by savings plan but the underlying ec2 instance will be covered.
