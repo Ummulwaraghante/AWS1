@@ -1,1 +1,35 @@
+SECURITY GROUP:
+•	Work as a firewall which stop unauthorized access at Instance level
+•	Use security at Instance-Level
+•	S.G are limited to VPC
+
+Has 2 type of rules:
+•	Inbound-Allow traffic towards ec2 instance.
+By default inbound rule are deny
+We can only allow any IP/Protocol in the Inbound
+•	Outbound-Which send traffic to outside Ec2 instance
+By default outbound rule are allowed
+
+POINTS:
+•	Every EC2 instance must have at least one S.G
+•	1 EC2-1 S.G
+•	Multiple S.G -1 EC2 
+•	1 S.G- Multiple EC2
+
+IMPORTANT:
+•	AWS has a default S.G
+•	By default inbound rules are deny and outbound rules are allowed.
+•	Allow inbound rule then no need to allow in outbound it will automatically get allow called as “STATEFULL”
+•	Allow inbound rule and even we need to allow outbound rule called as “STATELESS” 
+
+IMPORTANT PORT NO:
+RDP: 3389
+SSH: 422
+HTTP:80
+HTTPS: 443
+FTP: 21&20
+SFTP: 22
+SMTP: 25
+DNS: 53
+
 
